@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    color: #000;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+}
+header h1:hover{
+    color: #f65e22 !important;
+}
+
+/* Policies Section */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.policy {
+    background-color: #111;
+    padding: 20px;
+    border-left: 5px solid #f65e22;;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.policy h2 {
+    color: #f65e22;;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.policy ul {
+    list-style: none;
+    padding: 0;
+}
+
+.policy ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.policy ul li::before {
+    content: "✔";
+    color: #f65e22;;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #111;
+    padding: 15px;
+    font-size: 14px;
+    color: #f65e22;
+}

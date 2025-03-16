@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body {
+    background-color: #000 !important;
+}
+
+.delivery-container {
+    background-color: #1a1a1a; /* Dark gray container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(246, 94, 34, 0.3); /* Orange shadow */
+    width: 100%;
+    max-width: 800px; /* Wider container for horizontal layout */
+}
+
+h2 {
+     /* Orange heading */
+    margin-bottom: 20px;
+
+    color: white;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+}
+h2:hover{
+    color: #f65e22;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px; /* Space between form groups */
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1; /* Each form group takes equal space */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc; /* Light gray text */
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 5px;
+    background-color: #262626; /* Dark gray input background */
+    color: #fff; /* White text */
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #f65e22; /* Orange border on focus */
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #f65e22; /* Orange button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column; /* Stack form fields vertically on small screens */
+    }
+}

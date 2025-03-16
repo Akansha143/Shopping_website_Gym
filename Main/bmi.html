@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="icon" type="image/png" href="logo3.jpg">
+    
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="headbmi">Calculate Your BMI Now!</h2>
+      <form id="bmiForm">
+        <div class="row">
+          <div class="col-3">
+            <label for="gender" class="form-label">Gender</label>
+            <select class="form-select form-control" id="gender" required>
+              <option value="select gender" class="option">Select Gender</option>
+              <option value="male" class="option">Male</option>
+              <option value="female" class="option">Female</option>
+            </select>
+          </div>
+
+          <div class="col-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" required />
+          </div>
+
+          <div class="col-3">
+            <label for="weight" class="form-label">Weight (kg)</label>
+            <input type="number" class="form-control" id="weight" required />
+          </div>
+
+          <div class="col-3">
+            <label for="height" class="form-label">Height (cm)</label>
+            <input type="number" class="form-control" id="height" required />
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-orange">Calculate BMI</button>
+        </div>
+      </form>
+
+      <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer Headings */
+footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f65e22;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+footer ul li a {
+    display: inline-block;
+    white-space: nowrap; /* Prevents text from wrapping */
+    width: auto; /* Ensures it takes only necessary space */
+}
+
+
+/* Footer Links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+footer ul {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+footer a:hover {
+    color: #e2712a;
+    transform: translateX(3px);
+}
+
+/* Payment & Social Icons */
+.icons i {
+    font-size: 1.2rem;
+    margin-right: 6px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.icons i:hover {
+    color: #e2712a;
+    transform: scale(1.1);
+}
+
+/* Newsletter Input */
+.input-group input {
+    background: transparent;
+    border: 2px solid #f65e22;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.input-group button {
+    background-color: #f65e22;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.input-group button:hover {
+    background-color: #e2712a;
+    transform: scale(1.05);
+}
+
+/* Copyright Section */
+.copyright {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.8rem;
+    margin-top: 0;
+    border-top: 1px solid #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .row {
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+}
+/* Footer Styles */
+.footer-container {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container h5 {
+    color: #f65e22;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-container ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-container ul li {
+    margin-bottom: 8px;
+}
+
+.footer-container ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    display: block; /* Ensures vertical alignment */
+}
+
+.footer-container ul li a:hover {
+    color: #f65e22;
+}
+
+/* Ensure columns are properly aligned */
+.footer-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-container .col-lg-3,
+.footer-container .col-md-6 {
+    flex: 1 1 250px; /* Makes sure columns are at least 250px */
+    min-width: 250px;
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+    align-items: flex-start; /* Aligns content to the left */
+}

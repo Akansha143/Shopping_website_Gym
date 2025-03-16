@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+marquee {
+    font-size: 1rem;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+marquee:hover {
+    color: #f65e22;
+}
+
+.h h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #f65e22;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 28px;
+        
+        font-weight: bold !important;
+        font-family: Arial, sans-serif !important; 
+        text-transform: uppercase;
+        letter-spacing: 2px !important;
+
+}
+.underline{
+    color: #f65e22;
+        text-align: center;
+        font-size: 20px;
+        
+        font-weight: bold !important;
+        font-family: Arial, sans-serif !important; 
+        text-transform: uppercase;
+        letter-spacing: 2px !important;
+}
+.h h1:hover {
+    color: #f65e22;
+}
+
+.category {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    margin-left: 150px;
+margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.category:hover {
+    color: #f65e22;
+}
+
+.h {
+    margin-top: 2rem;
+}
+#heading{
+    font-size: 16px;
+    font-weight: bold;
+    color: #f65e22;
+    margin: 18px 0 4px 0;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+.content {
+    background: #fff;
+    color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px rgba(255, 127, 0, 0.4);
+    transition: 0.3s;
+    width: 230px;
+    text-align: center;
+    padding: 12px 10px; /* Adjusted padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.content h6 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f65e22;
+    margin: 8px 0 4px 0; /* Reduced bottom margin */
+}
+
+.content p {
+    font-size: 14px;
+    color: #443d3d;
+    margin: 8px 0 4px 0;
+}
+
+.buttonview {
+    background: #f65e22;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: auto; /* Ensures it sticks to the bottom */
+}
+
+
+.content:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 2px;
+}
+
+.fa {
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.checked {
+    color: gold;
+}
+
+.fa:hover {
+    transform: scale(1.3);
+    transition: .6s;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.quantity-controls {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2px;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.quantity {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 20px;
+    text-align: center;
+}
+
+
+
+.buttonview:hover {
+    background: #e2712a;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 210px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .content {
+        width: 100%;
+    }
+}

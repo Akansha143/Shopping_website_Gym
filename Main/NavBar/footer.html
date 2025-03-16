@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer</title>
+
+    <!-- Bootstrap and Font Awesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /* Footer Styles */
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 40px 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Footer Headings */
+        footer h5 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #f65e22;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        /* Footer Links */
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            color: #e2712a;
+            transform: translateX(3px);
+        }
+
+        /* Payment & Social Icons */
+        .icons i {
+            font-size: 1.2rem;
+            margin-right: 6px;
+            color: #fff;
+            transition: 0.3s ease-in-out;
+        }
+
+        .icons i:hover {
+            color: #e2712a;
+            transform: scale(1.1);
+        }
+
+        /* Newsletter Input */
+        .input-group input {
+            background: transparent;
+            border: 2px solid #f65e22;
+            color: #fff;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .input-group input::placeholder {
+            color: #aaa;
+        }
+
+        .input-group button {
+            background-color: #f65e22;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .input-group button:hover {
+            background-color: #e2712a;
+            transform: scale(1.05);
+        }
+
+        /* Copyright Section */
+        .copyright {
+            text-align: center;
+            padding: 5px 0;
+            font-size: 0.8rem;
+            margin-top: 0;
+            border-top: 1px solid #444;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            footer .row {
+                text-align: center;
+            }
+
+            .icons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Footer Starts -->
+    <footer>
+        <div class="container">
+            <div class="row text-center text-lg-start">
+
+                <!-- Logo and Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img src="logo.png" alt="logo" class="img-fluid mb-3" style="max-width: 150px;">
+                    <p>Adding fuel to every fitness fanatic's passion with the best equipment and clothing.</p>
+                    <h5>We Accept</h5>
+                    <div class="icons">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-credit-card"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                    </div>
+                </div>
+
+                <!-- Shop Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Shop</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cardio Machines</a></li>
+                        <li><a href="#">Gym Equipment</a></li>
+                        <li><a href="#">Footwear</a></li>
+                        <li><a href="#">Men's Wear</a></li>
+                        <li><a href="#">Women's Wear</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Information</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Payment Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Information</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter and Socials -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email address">
+                        <button class="btn btn-dark" type="button"><i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    <div class="icons mt-3">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="copyright">© 2025 The Fit Store | All Rights Reserved</p>
+    </footer>
+    <!-- Footer Ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

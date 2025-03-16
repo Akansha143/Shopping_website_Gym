@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The Fit Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="stores.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="faq.css" />
+    <link rel="stylesheet" href="carosel.css" />
+    <link rel="stylesheet" href="cardmain1.css" />
+    <link rel="icon" href="Images/title_t.png" type="image/png" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="top-left">
+        <a href="#">🔥 Offer</a>
+        <a href="#">📱 Download App</a>
+      </div>
+      <div class="top-right">
+        <a href="#">📞 Contact Us</a>
+        <a href="#">📦 Track Order</a>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo-container">
+        <img
+          src="Images/title_t.png"
+          alt="Logo"
+          class="logo"
+          height="30px"
+          width="25px"
+        />
+        <h1 class="site-name">The Fit Store</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li class="dropdown">
+          <a href="#">New Arrivals</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Limited Edition</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Women</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#sportbra">Sports-bra</a></li>
+            <li><a href="#">T-shirts</a></li>
+            <!-- <li><a href="#">Sports-bra</a></li> -->
+            <li><a href="#">Sweatshirts</a></li>
+            <li><a href="#short">Shorts</a></li>
+            <li><a href="#">Footwear</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Men</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#tshirt">T-shirts</a></li>
+            <li><a href="#joggers">Joggers</a></li>
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Pants</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Cardio</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#tredmill">Tredmill</a></li>
+            <li><a href="#cycling">Cycling</a></li>
+            <li><a href="#">Walkpad</a></li>
+            <li><a href="#">Mats</a></li>
+            <li><a href="#">Resistance Bands</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Strength</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#dumbbells">Dumbbells</a></li>
+            <li><a href="#kettlebells">Kettlebells</a></li>
+            <li><a href="#">Barbells</a></li>
+            <!-- <><a href="#">Kettlebells</a></ -->
+            <li><a href="#">Squat Rack</a></li>
+            <li><a href="#">Others</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" >Accesories</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#bottles">Bottles</a></li>
+            <li><a href="#footwear">Footwear</a></li>
+            <li><a href="#bags">Bags</a></li>
+            <li><a href="#">Gloves</a></li>
+            <!-- <li><a href="#">Boxing</a></li> -->
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Wearable-Tech</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#tracker">Fitness Tracker</a></li>
+            <li><a href="#watch">Smartwatch</a></li>
+            <!-- <li><a href="#">Boxing</a></li> -->
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Supplements</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All</a></li>
+            <li><a href="#protein">Proteins</a></li>
+            <li><a href="#vitamin">Vitamins</a></li>
+            <li><a href="#">Minerals</a></li>
+            <li><a href="#">Pre-workout</a></li>
+            <li><a href="#">Recovery</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav-icons">
+        <div class="search-box">
+          <input type="text" placeholder="Search for fitness gear..." />
+          <span class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass" style="color: #f65e22"></i
+          ></span>
+        </div>
+        <i class="fa-solid fa-heart" style="color: #f65e22"></i>
+        <i class="fa-solid fa-cart-shopping" style="color: #f65e22"></i>
+        <a href="./login.html"><i class="fa-solid fa-user" style="color: #ff811a"></i></a>
+      </div>
+    </nav>
+
+    <br />
+    <div
+      id="carouselExample"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="3000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/2.png" class="d-block w-100" alt="Slide 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/3.png" class="d-block w-100" alt="Slide 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/1.png" class="d-block w-100" alt="Slide 3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- CATEGORY -->
+    <div class="h">
+      <u id="women" class="underline"><h1>WOMEN'S CLOTHING</h1></u>
+    </div>
+    <h3 id="Sportbra" class="category">SPORTS BRA</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/sb1.jpg" />
+
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>AquaFit</b></h5>
+        <p>Stay strong, move freely, shine confidently</p>
+        <h6>&#8377;899</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/sb2.jpg" />
+
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Blackbold</b></h5>
+        <p>Bold strength meets comfort, power, and style</p>
+        <h6>&#8377;799</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/sb3.jpg" />
+
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>GreyZen</b></h5>
+        <p>Find balance in strength, comfort, and style</p>
+        <h6>&#8377;699</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/sb4 (1).webp" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>CoreBlack</b></h5>
+        <p>Unleash strength with comfort, power, and confidence</p>
+        <h6>&#8377;999</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+    <h3 id="short" class="category">SHORTS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/short2.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Power Mode</b></h5>
+        <p>Train hard, move free, stay strong</p>
+        <h6>&#8377;799</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/15300123/pexels-photo-15300123/free-photo-of-woman-wearing-a-black-top-and-a-cycling-shorts.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Supreme Comfort</b></h5>
+        <p>Experience softness, move freely, perform strong</p>
+        <h6>&#8377;899</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/short3.jpeg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Elite Strength</b></h5>
+        <p>Unleash power, dominate every workout</p>
+        <h6>&#8377;999</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/short4.webp" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Ultimate Performance</b></h5>
+        <p>Maximize potential, conquer every workout strong</p>
+        <h6>&#8377;699</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <div class="h">
+      <u id="men" class="underline"><h1>MEN'S CLOTHING</h1></u>
+    </div>
+    <h3 id="tshirt" class="category">T-SHIRTS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/8497672/pexels-photo-8497672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Fiery Energy</b></h5>
+        <p>Fuel your fire, ignite your strength</p>
+        <h6>&#8377;1200</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/8401096/pexels-photo-8401096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Stealth Mode</b></h5>
+        <p>Move silently, perform with unstoppable power</p>
+        <h6>&#8377;1399</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/29780130/pexels-photo-29780130/free-photo-of-man-lifting-barbell-in-gym-for-strength-training.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Cozy Chic</b></h5>
+        <p>Elevate your look, embrace effortless style</p>
+        <h6>&#8377;1699</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/16701780/pexels-photo-16701780/free-photo-of-model-in-tshirt.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Purple Perfection</b></h5>
+        <p>Purple vibes, comfort meets effortless style</p>
+        <h6>&#8377;1499</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <h3 id="joggers" class="category">JOGGERS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT8B56PRNP-VpsrR1JGmmtmL_FtgyD6iynVpGE1tqIv5GjxhBKvkZ21JoOk_BISDCsmztUcPn_KTzjrgYruURrBBSTXqX1mCDN0JBH1DpU&usqp=CAc"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Green Glow Joggers</b></h5>
+        <p>Glow with energy, conquer every stride</p>
+        <h6>&#8377;1999</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://nobero.com/cdn/shop/files/4_cbc2fdd4-fc9e-4595-8fdb-6824dd2101ec.jpg?v=1735973412"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Bold Brown Stride</b></h5>
+        <p>Stride with confidence, embrace bold moments</p>
+        <h6>&#8377;1799</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.meesho.com/images/products/438410788/wvvcz_512.webp"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Grey Glide Comfort</b></h5>
+        <p>Glide through the day with comfort</p>
+        <h6>&#8377;1699</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://s.alicdn.com/@sc04/kf/Ha10f2b02f39f42898db8a2a4fb1ffacff.jpg_720x720q50.jpg"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Fresh White Stride</b></h5>
+        <p>Stride confidently, embrace the freshness within</p>
+        <h6>&#8377;1899</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <div class="h">
+      <u id="cardio" class="underline"><h1>CARDIO</h1></u>
+    </div>
+    <h3 id="tredmill" class="category">TREDMILLS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/treadmill1.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Fitness Treadmill</b></h5>
+        <p>Run towards your goals on treadmill</p>
+        <h6>&#8377;30000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/treadmill3.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Workout Treadmill</b></h5>
+        <p>Push your limits with workout treadmill</p>
+        <h6>&#8377;31000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/treadmill4.webp" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Smartrun Treadmill</b></h5>
+        <p>Transform your fitness journey with Smartrun</p>
+        <h6>&#8377;20000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/4046557/pexels-photo-4046557.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Flexpad Treadmill</b></h5>
+        <p>Achieve fitness goals with Flexpad Treadmill</p>
+        <h6>&#8377;25000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <h3 id="cycling" class="category">CYCLING</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/cycle1.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Recumbent Cycling</b></h5>
+        <p>Stay fit and strong with treadmill workouts</p>
+        <h6>&#8377;15000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/cycle2.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Cardio Cycling</b></h5>
+        <p>Boost endurance and strength with cardio cycling</p>
+        <h6>&#8377;17000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/cycle3.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Virtual Cycling</b></h5>
+        <p>Ride anywhere, anytime with virtual cycling</p>
+        <h6>&#8377;12000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/cycle4.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Upright Cycling</b></h5>
+        <p>Stay active and strong with upright cycling</p>
+        <h6>&#8377;16500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <div class="h">
+      <u id="strength" class="underline"><h1>STRENGTH</h1></u>
+    </div>
+    <h3 id="dumbbells" class="category">DUMBELLS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/dumble1.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Mini dumbbell</b></h5>
+        <p>Stay strong with this mini dumbbell</p>
+        <h6>&#8377;1000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/dumble2.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Moderate weight</b></h5>
+        <p>Build strength with this moderate weight</p>
+        <h6>&#8377;3000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/dumbell3.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Solid strength</b></h5>
+        <p>Enhance power with solid strength dumbbells</p>
+        <h6>&#8377;7000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/dumbell4.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Extreme strength</b></h5>
+        <p>Push your limits with extreme strength</p>
+        <h6>&#8377;12000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <h3 id="kettlebells" class="category">KETTLEBELLS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="data:image/jpeg;base64,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"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Mini Strength</b></h5>
+        <p>Mini strength, maximum results, anytime, anywhere</p>
+        <h6>&#8377;1500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="data:image/jpeg;base64,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"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Powerful Compact</b></h5>
+        <p>Powerful compact design, big strength boost</p>
+        <h6>&#8377;2500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbJryL7h1lqQLOVmXHnUJbmvlEpTt_cJxqA&s"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Maximized Strength</b></h5>
+        <p>Maximized strength, ultimate performance, limitless potential</p>
+        <h6>&#8377;5000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_0NGJRsnSjLJIalhvkaqjtxjIkanRJap3A&s"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Unstoppable Power</b></h5>
+        <p>Unstoppable power, relentless drive, boundless strength</p>
+        <h6>&#8377;13000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <div class="h">
+      <u id="acc" class="underline"><h1>ACCESSORIES</h1></u>
+    </div>
+    <h3  class="category">GYM ESSENTIALS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/6303476/pexels-photo-6303476.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Bold Hydration</b></h5>
+        <p>Stay refreshed with sleek, black elegance</p>
+        <h6>&#8377;1000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/9391902/pexels-photo-9391902.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Strength Storage</b></h5>
+        <p>Carry your gear, conquer every workout</p>
+        <h6>&#8377;2500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img id="im" src="Images/acc3.jpg" />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+        <h5 id="heading"><b>Grip Power</b></h5>
+        <p>Protect your hands, enhance your performance</p>
+        <h6>&#8377;3000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/30491959/pexels-photo-30491959/free-photo-of-bright-orange-sports-shoes-on-dark-gym-floor.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Speed Unleashed</b></h5>
+        <p>Speed Unleashed: Conquer every challenge effortlessly</p>
+        <h6>&#8377;3000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <h3 id="tracker" class="category">WEARABLE TECH</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/5083222/pexels-photo-5083222.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Pulse Pro</b></h5>
+        <p>Track your heart rate with precision</p>
+        <h6>&#8377;4500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/23475/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>SmartStride</b></h5>
+        <p>Monitor your steps, stay active</p>
+        <h6>&#8377;3800</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/18236754/pexels-photo-18236754/free-photo-of-jabra-elite-85t-wireless-bluetooth.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Active Tune</b></h5>
+        <p>Wireless earbuds for your intense workouts</p>
+        <h6>&#8377;3200</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/5081922/pexels-photo-5081922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>FitSense</b></h5>
+        <p>All-in-one fitness smartwatch</p>
+        <h6>&#8377;5200</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <div class="h">
+      <u class="underline"><h1>SUPPLEMENTS AND NUTRIENTS</h1></u>
+    </div>
+    <h3 id="protein" class="category">PROTEIN SUPPLEMENTS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/16216617/pexels-photo-16216617/free-photo-of-man-and-jar-midair.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Whey Power</b></h5>
+        <p>Boost muscle recovery and growth</p>
+        <h6>&#8377;3000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/5669174/pexels-photo-5669174.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Plant Protein</b></h5>
+        <p>100% vegan protein for lean muscles</p>
+        <h6>&#8377;2800</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://r3vivefitness.com/wp-content/uploads/2024/02/Post-020724.jpg"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Casein Fuel</b></h5>
+        <p>Slow-digesting protein for overnight muscle recovery</p>
+        <h6>&#8377;3500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://images.pexels.com/photos/6475113/pexels-photo-6475113.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Mass Gainer</b></h5>
+        <p>High-calorie formula for muscle gain</p>
+        <h6>&#8377;4000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <h3 id="protein" class="category">VITAMIN AND MINERALS</h3>
+    <div class="container">
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://5.imimg.com/data5/SELLER/Default/2021/12/JC/WF/TA/544927/immunity-booster.jpg"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Immunity Boost</b></h5>
+        <p>Essential vitamins for daily wellness</p>
+        <h6>&#8377;1200</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://earthful.me/cdn/shop/files/1_front_bones_4thMay.jpg?v=1714997656&width=720"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Bone Strength</b></h5>
+        <p>Calcium & D3 for stronger bones</p>
+        <h6>&#8377;1500</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://www.cureveda.com/cdn/shop/files/EssentialWomen-Packof02.jpg?v=1733985966&width=800"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Multivitamins</b></h5>
+        <p>All-in-one essential nutrient pack</p>
+        <h6>&#8377;2000</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+
+      <div class="content">
+        <div class="image-container">
+          <img
+            id="im"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IPlpCMhVzkc0kYgSqSqRrLKbXAuzaoZcHQ&s"
+          />
+          <div class="quantity-controls">
+            <button class="decrease hidden">−</button>
+            <span class="quantity hidden">1</span>
+            <button class="increase">+</button>
+          </div>
+        </div>
+
+        <h5 id="heading"><b>Energy Booster</b></h5>
+        <p>B-complex for an active lifestyle</p>
+        <h6>&#8377;1800</h6>
+        <ul>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star checked"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buttonview">View Details</button>
+      </div>
+    </div>
+
+    <section>
+      <h2 class="title">FAQ's</h2>
+
+      <div class="faq">
+        <div class="question">
+          <h3>• What is The Fit Store?</h3>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p style="margin-bottom: 0px">
+            We provide the best quality products that will help you to reach
+            your fitness goals. From Footwear, Bottles, Gymwear to best quality
+            Gym Equipments.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3>• Are your products authentic and genuine?</h3>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Yes, all of our products are authentic and genuine. We only sell
+            products from authorized manufacturers and suppliers.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3>• Best home exercise equipment for beginners?</h3>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Almost all exercises can be performed at home with a pair of
+            dumbbells and a multipurpose bench.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3>• Can I cancel or change my order after it's been placed?</h3>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            Please contact our customer service team as soon as possible if you
+            need to cancel or make changes to your order. We will do our best to
+            accommodate your request.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="question">
+          <h3>• What types of fitness equipment and apparel do you sell?</h3>
+          <svg width="15" height="10" viewBox="0 0 42 25">
+            <path
+              d="M3 3L21 21L39 3"
+              stroke="white"
+              stroke-width="7"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p>
+            We sell a wide range of fitness equipment, including cardio
+            machines, strength training equipment, and accessories, as well as
+            fitness apparel and footwear.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="break">
+    <footer>
+        <div class="container">
+            <div class="row text-center text-lg-start">
+
+                <!-- Logo and Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img src="Images/logo.png" alt="logo" class="img-fluid mb-3" style="max-width: 150px;">
+                    <p>Adding fuel to every fitness fanatic's passion with the best equipment and clothing.</p>
+                    <h5>We Accept</h5>
+                    <div class="icons">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-credit-card"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                    </div>
+                </div>
+
+                <!-- Shop Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 style="left: 5px;">Shop</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#cardio">Cardio Machines</a></li>
+                        <li><a href="#dumbbells">Gym Equipment</a></li>
+                        <li><a href="#acc">Footwear</a></li>
+                        <li><a href="#men">Men's Wear</a></li>
+                        <li><a href="#women">Women's Wear</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Information</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/Main/index.html#slider">About Us</a></li>
+                        <li><a href="/Main/policy.html#privacy">Privacy Policy</a></li>
+                        <li><a href="/Main/policy.html#payment">Payment Policy</a></li>
+                        <li><a href="/Main/policy.html#terms">Terms & Conditions</a></li>
+                        <li><a href="/Main/index.html#contactt">Contact Information</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter and Socials -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email address">
+                        <button class="btn btn-dark" type="button" ><i  class="fa fa-arrow-right" ></i></button>
+                    </div>
+                    <div class="icons mt-3">
+                      <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                      <a href="https://x.com/?mx=2"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p class="copyright">© 2025 The Fit Store | All Rights Reserved</p>
+    </footer>
+  
+
+    
+    
+
+    <script src="script.js"></script>
+    <script src="cardmain1.js"></script>
+    <script src="carosel.js"></script>
+    <script src="faq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Details</title>
+    <link rel="icon" href="Images/title_t.png" type="image/png">
+    <link rel="stylesheet" href="delivery.css"> <!-- Link to the delivery CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome for Icons -->
+</head>
+<body>
+    <div class="delivery-container">
+        <h2 style="color: white;">Delivery Details</h2>
+        <br>
+        <form id="delivery-form" action="confirmation.html">
+            <!-- Personal Details -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+                </div>
+            </div>
+
+            <!-- Address Details -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="flat-no">Flat No.</label>
+                    <input type="text" id="flat-no" name="flat-no" required>
+                </div>
+                <div class="form-group">
+                    <label for="building-name">Building Name</label>
+                    <input type="text" id="building-name" name="building-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="street">Street</label>
+                    <input type="text" id="street" name="street" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+                <div class="form-group">
+                    <label for="pin-code">Pin Code</label>
+                    <input type="text" id="pin-code" name="pin-code" required>
+                </div>
+            </div>
+
+            <!-- Payment Method -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="payment-method">Payment Method</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="cash-on-delivery">Cash on Delivery</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="upi">UPI</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-row" >
+                <button type="submit" class="btn-submit">Place Order</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="delivery.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    background-color: #000 !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #0e0d0d; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000; /* Black container */
+    border-radius: 10px;
+    border: 1px solid #333; /* Dark border for contrast */
+    box-shadow: 0 0 10px rgba(246, 94, 34, 0.3); /* Orange shadow */
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #f65e22; /* Orange heading */
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 8px;
+    background-color: #111; /* Slightly lighter black for items */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(246, 94, 34, 0.2); /* Orange hover effect */
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    border: 2px solid #f65e22; /* Orange border for images */
+}
+
+.cart-item-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cart-item-info h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #f65e22; /* Orange product name */
+}
+
+.cart-item-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc; /* Light gray text */
+}
+
+.cart-item-info .quantity {
+    font-weight: bold;
+    color: #f65e22; /* Orange quantity */
+}
+
+.remove-item {
+    background-color: #f65e22; /* Orange for remove button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.remove-item:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333; /* Dark border */
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f65e22; /* Orange total price */
+}
+
+.btn-success {
+    background-color: #f65e22; /* Orange button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+.btn-danger {
+    background-color: #333; /* Dark gray for clear cart button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-danger:hover {
+    background-color: #444; /* Lighter gray on hover */
+}

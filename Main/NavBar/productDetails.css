@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Product Details Layout */
+.product-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: auto;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.3);
+}
+
+/* Image Styling */
+.product-image {
+    flex: 1;
+    max-width: 45%;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Product Info Styling */
+.product-info {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.product-info p {
+    font-size: 16px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.product-info h3 {
+    font-size: 22px;
+    color: #ff6600;
+    margin-top: 10px;
+}
+
+/* Rating */
+.rating {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Sizes */
+.sizes h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ff6600;
+}
+
+.sizes ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.sizes li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Features */
+h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ff6600;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.features li {
+    margin-bottom: 5px;
+}
+
+/* Delivery Info */
+.delivery-info {
+    margin-top: 15px;
+}
+
+.delivery-info h4 {
+    font-size: 18px;
+    color: #ff6600;
+}
+
+/* Button */
+.btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc5200;
+}
+/* Add this to your CSS file */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.quantity {
+    font-size: 18px;
+    margin: 0 10px;
+}
+/* Basic Styles for Size Buttons */
+.size-btn {
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.size-btn.selected {
+    background-color: #ff6600; /* Highlight color when selected */
+    color: white;
+}
+
+/* For the quantity buttons */
+.quantity-btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin: 0 10px;
+    font-size: 18px;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="stores.css">
+    <link rel="icon" href="Images/title_t.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="top-bar">
+        <div class="top-left">
+            <a href="#">🔥 Offer</a>
+            <a href="#">📱 Download App</a>
+        </div>
+        <div class="top-right">
+            <a href="#">📞 Contact Us</a>
+            <a href="#">📦 Track Order</a>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Images/title_t.png" alt="Logo" class="logo" width="25px" height="25px">
+            <h1 class="site-name">The Fit Store</h1>
+        </div>
+
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#">New Arrivals</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Limited Edition</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Women</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Sports-bra</a></li>
+                    <li><a href="#">T-shirts</a></li>
+                    <!-- <li><a href="#">Sports-bra</a></li> -->
+                    <li><a href="#">Sweatshirts</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Footwear</a></li>
+                </ul>
+
+            <li class="dropdown">
+                <a href="#">Men</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">T-shirts</a></li>
+                    <li><a href="#">Joggers</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Pants</a></li>
+
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Cardio</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Tredmill</a></li>
+                    <li><a href="#">Cycling</a></li>
+                    <li><a href="#">Walkpad</a></li>
+                    <li><a href="#">Mats</a></li>
+                    <li><a href="#">Resistance Bands</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Strength</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Dumbbells</a></li>
+                    <li><a href="#">Kettlebells</a></li>
+                    <li><a href="#">Barbells</a></li>
+                    <!-- <><a href="#">Kettlebells</a></ -->
+                    <li><a href="#">Squat Rack</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Footwear</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Sports shoes</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Accesories</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Bottles</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Gloves</a></li>
+                    <!-- <li><a href="#">Boxing</a></li> -->
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Wearable-Tech</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Fitness Tracker</a></li>
+                    <li><a href="#">Smartwatch</a></li>
+                    <!-- <li><a href="#">Boxing</a></li> -->
+                </ul>
+            </li> <li class="dropdown">
+                <a href="#">Supplements</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Proteins</a></li>
+                    <li><a href="#">Vitamins</a></li>
+                    <li><a href="#">Minerals</a></li>
+                    <li><a href="#">Pre-workout</a></li>
+                    <li><a href="#">Recovery</a></li>
+
+                </ul>
+            </li>
+
+        </ul>
+        <div class="nav-icons">
+            <div class="search-box">
+                <input type="text" placeholder="Search for fitness gear...">
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #f65e22;"></i></span>
+            </div>
+            <i class="fa-solid fa-heart" style="color:#f65e22;"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon" style="color: #f65e22; position: relative;">
+                <span id="cart-count" style="
+                    position: absolute;
+                    top: -8px;
+                    right: -10px;
+                    background: red;
+                    color: white;
+                    font-size: 12px;
+                    padding: 3px 7px;
+                    border-radius: 50%;
+                    display: none;">
+                </span>
+            </i>
+            
+            <i class="fa-solid fa-user" style="color: #ff811a;"></i>
+        </div>
+    </nav>
+
+
+
+    <!-- PRODUCT CONTAINER -->
+    <div class="product-details-container">
+        <div class="product-image">
+            <img id="product-image" alt="Product Image" />
+        </div>
+        <div class="product-info">
+            <h1 id="product-name"></h1>
+            <p id="product-description"></p>
+            <h3 id="product-price"></h3>
+
+            <div class="rating">
+                <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>☆</span>
+            </div>
+
+            <div class="sizes">
+                <h4>Available Sizes:</h4>
+                <ul id="size-list">
+                    <li><button class="size-btn">S</button></li>
+                    <li><button class="size-btn">M</button></li>
+                    <li><button class="size-btn">L</button></li>
+                    <li><button class="size-btn">XL</button></li>
+                </ul>
+            </div>
+
+            <h4>Quantity:</h4>
+            <div class="quantity-controls">
+                <button id="decrease" class="quantity-btn">−</button>
+                <span id="quantity" class="quantity">1</span>
+                <button id="increase" class="quantity-btn">+</button>
+            </div>
+
+            <div class="features">
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Breathable & Sweat-wicking fabric</li>
+                    <li>Soft & Stretchable fit</li>
+                    <li>Perfect for gym & daily wear</li>
+                    <li>Durable & long-lasting</li>
+                </ul>
+            </div>
+
+            <div class="delivery-info">
+                <h4>Delivery:</h4>
+                <p>Estimated delivery: <strong>3-5 Business Days</strong></p>
+                <p>Cash on Delivery Available ✅</p>
+            </div>
+
+           
+
+            <button class="btn" id="add-to-cart">Add to Cart</button>
+            <div id="cart-message" style="display: none; color: green; text-align: center; margin-top: 10px;">
+                Item has been added to the cart!
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="productDetails.js"></script>
+</body>
+</html>
